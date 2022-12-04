@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp4064821.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+.corpo{
+    height: 70%;
+}
+.caixa1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    max-width: 1100px;
+
+}
+header{
+    padding: 20px 0;
+}
+.logo{
+    width: 10%;
+}
+.navbar{
+    padding-top: 40px;
+    width: 90%;
+    text-align: right;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 20px;
+
+}
+.caixa2{
+    display: flex;
+    padding-bottom: 20px;
+}
+.titulo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.texto1{
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: medium;
+    padding-top: 5px;
+   
+}
+.rickpfp{
+    width: 50%;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.referencias{
+    padding-bottom: 33%;
+}
+.referencias a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+.livros{
+    padding-top: 30px;
+}
+.flivros{
+    display: flex;
+    margin-left: 25%;
+    height: 300px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.botao{
+    border: none;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition:all .3s;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.botao:hover{
+    background-color: rgb(138, 142, 147);
+}
+.artes{
+    text-align: center;
+}
+.artes a{
+    color:black;
+}
+footer{
+    padding-top: 20px;
+}
